@@ -1,0 +1,13 @@
+{
+  "architectures": [
+    "mobilenetForImageClassification"
+  ],
+  "downsample_in_first_stage": false,
+  "id2label": {
+    "0": "left-wing",
+    "1": "right-wing"
+  },
+  "model_type": "mobilenet",
+  "num_channels": 3,
+  "transformers_version": "4.18.0.dev0"
+}
