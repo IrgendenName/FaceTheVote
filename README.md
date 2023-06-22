@@ -1,7 +1,7 @@
 # FaceTheVote
 Description:
 
-This project is an Artificial Intelligence (AI) application designed as a exercise in image classification. It applies machine learning models to recognize and categorize political leanings into 'left-wing' or 'right-wing' based solely on images provided by the user. The application uses a neural network trained on a dataset of labeled images with political leanings.
+This project is an Artificial Intelligence (AI) application designed as a exercise in image classification. It applies machine learning models to recognize and categorize political leanings into 'left-wing' or 'right-wing' based solely on images provided by the user. The application uses a neural network trained on a dataset of labeled images of persons and their political leanings.
 
 However, it is of utmost importance to clarify that this application is intended strictly for entertainment purposes. The underlying AI model, while innovative and illustrative of the power of machine learning, cannot definitively or accurately deduce a person's political ideology from an image. Political beliefs are multifaceted, complex, and deeply personal - they cannot be reduced to a binary classification or accurately inferred from a single piece of data.
 
