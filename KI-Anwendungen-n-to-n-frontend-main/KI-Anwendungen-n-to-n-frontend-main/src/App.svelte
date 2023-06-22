@@ -14,16 +14,10 @@
 						<a class="nav-link" href="#/">Home</a>
 					</li>				
 					<li class="nav-item">
-						<a class="nav-link" href="#/appartment">Appartment Regression</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#/draw">Draw Classification</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#/cats">Cats Classification</a>
+						<a class="nav-link" href="#/vote">Vote Classification</a>
 					</li>			
 					<li class="nav-item">
-						<a class="nav-link" href="#/webcam">Webcam Demo</a>
+						<a class="nav-link" href="#/webcam">Webcam</a>
 					</li>		
 				</ul>
 			</div>

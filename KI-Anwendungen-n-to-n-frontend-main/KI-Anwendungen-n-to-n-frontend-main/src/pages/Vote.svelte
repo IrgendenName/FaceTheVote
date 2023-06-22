@@ -6,6 +6,15 @@
   let prediction = "";
   let huggingFaceLoading = false;
   let huggingFaceErrorMessage = "";
+  let titleOptions = ["Boss", "Friends", "Brother", "Sister", "Teacher", "favourite Footballplayer", "Mum", "Dad", "Dog", "Girlfriend", "Boyfriend"];
+  let titleIndex = 0;
+  let title = "You ever wondered what your " + titleOptions[titleIndex] + " votes for?";
+
+  // Create an interval to update the title every second
+  setInterval(() => {
+    titleIndex = (titleIndex + 1) % titleOptions.length;
+    title = "You ever wondered what your " + titleOptions[titleIndex] + " votes for?";
+  }, 1000);
 
   $: if (files) {
       // Note that `files` is of type `FileList`, not an Array:
@@ -90,10 +99,12 @@
   }
 </script>
 
+
+<h1>{title}</h1>
 {#if huggingFaceLoading}
   <h3>{huggingFaceErrorMessage}</h3>
 {/if}
-<label for="file_upload">Upload a picture:</label>
+<label for="file_upload">Lets find it out:</label>
 <input
   accept="image/*"
   bind:files

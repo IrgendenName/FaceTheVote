@@ -1,20 +1,13 @@
 // Pages
-import Appartment from "./pages/Appartment.svelte";
-import DrawClassification from "./pages/Draw.svelte";
-import CatsClassification from "./pages/Cats.svelte";
+import Classification from "./pages/Vote.svelte";
 
 import WebcamExample from "./pages/Webcam.svelte";
 
 export default {
     // Home
-    '/': Appartment,
-    '/appartment': Appartment,
+    '/': Classification ,
 
-    // mnist draw example
-    '/draw': DrawClassification,
-
-    //cats (leopard, tiger, lion, cheeta)
-    '/cats': CatsClassification,
+    '/vote': Classification,
 
     '/webcam': WebcamExample,
 
