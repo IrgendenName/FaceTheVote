@@ -1,4 +1,5 @@
 # FaceTheVote
+
 Description:
 
 This project is an Artificial Intelligence (AI) application designed as a exercise in image classification. It applies machine learning models to recognize and categorize political leanings into 'left-wing' or 'right-wing' based solely on images provided by the user. The application uses a neural network trained on a dataset of labeled images of persons and their political leanings.
@@ -10,3 +11,6 @@ Further, the project does not intend to stereotype, offend, or make any definiti
 All usage of the application is at the risk of the user, and all users agree to use the application responsibly and without intent to harm or defame others.
 
 In summary, "FaceTheVote" is a humorous experiment in the field of AI, designed to promote exploration of machine learning technology and its potential application in real-world contexts.
+
+Try it yourself:
+https://huggingface.co/Irgendsoeine/FaceTheVote3
